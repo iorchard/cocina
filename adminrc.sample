@@ -1,0 +1,12 @@
+export OS_AUTH_URL=https://keystone.openstack.svc.cluster.local:8443/v3
+export OS_CACERT=ca.crt
+export OS_USER_DOMAIN_NAME=default
+export OS_PROJECT_DOMAIN_NAME=default
+export OS_PROJECT_NAME=admin
+export OS_USERNAME=admin
+export OS_PASSWORD=$OSPW
+export OS_COMPUTE_API_VERSION=2.95
+export OS_IDENTITY_API_VERSION=3
+export OS_IMAGE_API_VERSION=2
+export OS_VOLUME_API_VERSION=3.70
+export OS_NETWORK_API_VERSION=2.0
